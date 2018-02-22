@@ -114,7 +114,7 @@ BoM options are user-configurable in a per-project configuration file.
 to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
 and ball grid arrays (BGAs).
 
-- [KicadModTree](https://github.com/pointhi/kicad-footprint-generator) - Python library for generating footprints. The scripts subdirectoy contains the footprints that are already scripted with this tool.
+- [KicadModTree](https://github.com/pointhi/kicad-footprint-generator) - Python library for generating footprints. The scripts subdirectoy contains the footprints that are already scripted with this tool. (Used for generating footprints for the official library)
 
 - [SpiralInductorFootprintGenerator](https://github.com/erichVK5/SpiralInductorFootprintGenerator) - A java utility for generating helical or polygonal inductor footprints in either gEDA footprint or Kicad legacy module format.
 
@@ -139,7 +139,11 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
 
-- [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
+- [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup. (Used for generating 3d models of the official library)
+
+### Documentation tools
+
+- [PCBDraw](https://github.com/yaqwsx/PcbDraw) Converts a pcb file to a nice looking top view in svg format. (Drawback: needs a svg library for used footprints.)
 
 ## Version Control Tools
 
